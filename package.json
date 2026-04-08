@@ -1,0 +1,26 @@
+{
+  "name": "nnptud-s4-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^17.3.1",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-validator": "^7.3.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.11",
+    "slugify": "^1.6.6"
+  }
+}
